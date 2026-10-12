@@ -1,0 +1,26 @@
+name: Reconstruire et publier
+on:
+  push:
+    branches: [main]
+    paths: ["tarifs.json"]
+  workflow_dispatch:
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    environment: { name: github-pages, url: "${{ steps.deploy.outputs.page_url }}" }
+    steps:
+      - uses: actions/checkout@v4
+      - run: python scripts/build.py
+      - name: Enregistrer index.html si modifié
+        run: |
+          git config user.name "github-actions"; git config user.email "actions@github.com"
+          git add index.html; git diff --cached --quiet || git commit -m "index.html : tarifs mis à jour" && git push
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with: { path: "." }
+      - id: deploy
+        uses: actions/deploy-pages@v4
