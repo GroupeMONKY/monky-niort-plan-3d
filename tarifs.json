@@ -1,0 +1,365 @@
+{
+  "maj": "2026-10-06",
+  "source": "dépliant Tarifs 2026 Niort",
+  "pass": [
+    {
+      "l": "Enfant ≤ 12 ans",
+      "p": 24.9
+    },
+    {
+      "l": "Adulte",
+      "p": 29.9
+    },
+    {
+      "l": "Famille 2+2",
+      "p": 89.9
+    }
+  ],
+  "activites": {
+    "bowling": {
+      "nom": "Bowling",
+      "url": "https://monky.fr/niort/accueil/",
+      "lignes": [
+        {
+          "l": "Partie adulte",
+          "p": 7
+        },
+        {
+          "l": "Partie enfant (≤ 10 ans)",
+          "p": 5.5
+        },
+        {
+          "l": "Location chaussures",
+          "p": 2,
+          "u": "la paire",
+          "x": 1
+        }
+      ],
+      "source": "https://monky.fr/niort/activites/bowling/"
+    },
+    "kart": {
+      "nom": "Karting électrique",
+      "url": "https://monky.fr/niort/accueil/",
+      "lignes": [
+        {
+          "l": "1 session enfant (≤ 13 ans)",
+          "p": 16
+        },
+        {
+          "l": "1 session adulte",
+          "p": 20
+        },
+        {
+          "l": "2 sessions enfant",
+          "p": 28
+        },
+        {
+          "l": "2 sessions adulte",
+          "p": 36
+        },
+        {
+          "l": "3 sessions enfant",
+          "p": 36
+        },
+        {
+          "l": "3 sessions adulte",
+          "p": 45
+        },
+        {
+          "l": "Kart bi-place",
+          "p": 25
+        },
+        {
+          "l": "Cagoule obligatoire",
+          "p": 2.5,
+          "u": "la paire",
+          "x": 1
+        }
+      ],
+      "source": "https://monky.fr/niort/activites/karting/"
+    },
+    "laser": {
+      "nom": "Laser Game",
+      "url": "https://monky.fr/niort/accueil/",
+      "lignes": [
+        {
+          "l": "1 partie",
+          "p": 8.9,
+          "u": "/pers."
+        },
+        {
+          "l": "2 parties",
+          "p": 14
+        }
+      ],
+      "source": "https://monky.fr/niort/activites/laser-game/"
+    },
+    "jump": {
+      "nom": "Jump Park",
+      "url": "https://monky.fr/niort/accueil/",
+      "lignes": [
+        {
+          "l": "Entrée illimitée",
+          "p": 11,
+          "u": "/enfant"
+        },
+        {
+          "l": "Kid Park + Jump Park (6-12 ans)",
+          "p": 16.9
+        },
+        {
+          "l": "+ 1 partie de Laser Game",
+          "p": 5,
+          "x": 1
+        },
+        {
+          "l": "Chaussettes antidérapantes",
+          "p": 2.5,
+          "u": "la paire",
+          "x": 1
+        }
+      ],
+      "source": "https://monky.fr/niort/activites/jump-park/"
+    },
+    "kid": {
+      "nom": "Kid Park",
+      "url": "https://monky.fr/niort/accueil/",
+      "lignes": [
+        {
+          "l": "Entrée illimitée",
+          "p": 11,
+          "u": "/enfant"
+        },
+        {
+          "l": "Kid Park + Jump Park (6-12 ans)",
+          "p": 16.9
+        },
+        {
+          "l": "Chaussettes antidérapantes",
+          "p": 2.5,
+          "u": "la paire",
+          "x": 1
+        }
+      ],
+      "source": "https://monky.fr/niort/activites/kid-park/"
+    },
+    "baby": {
+      "nom": "Baby Park",
+      "url": "https://monky.fr/niort/accueil/",
+      "lignes": [
+        {
+          "l": "Entrée illimitée",
+          "p": 4.9,
+          "u": "/enfant"
+        },
+        {
+          "l": "Offre Pitchoun 0-5 ans",
+          "p": 12.9
+        },
+        {
+          "l": "Chaussettes antidérapantes",
+          "p": 2.5,
+          "u": "la paire",
+          "x": 1
+        }
+      ],
+      "source": "https://monky.fr/niort/activites/baby-park/"
+    },
+    "karaoke": {
+      "nom": "Karaoké",
+      "url": "https://monky.fr/niort/accueil/",
+      "lignes": [
+        {
+          "l": "10 h – 19 h, lun. – jeu.",
+          "p": 25,
+          "u": "/heure"
+        },
+        {
+          "l": "10 h – 19 h, ven. – dim.",
+          "p": 35,
+          "u": "/heure"
+        },
+        {
+          "l": "19 h – 02 h, lun. – ven.",
+          "p": 25,
+          "u": "/heure"
+        },
+        {
+          "l": "19 h – 02 h, sam. – dim.",
+          "p": 35,
+          "u": "/heure"
+        }
+      ],
+      "source": "https://monky.fr/niort/activites/karaoke/"
+    },
+    "vr": {
+      "nom": "Réalité virtuelle",
+      "url": "https://monky.fr/niort/accueil/",
+      "lignes": [
+        {
+          "l": "1 partie",
+          "p": 12.9,
+          "u": "/pers."
+        },
+        {
+          "l": "2 parties",
+          "p": 20
+        }
+      ],
+      "source": "https://monky.fr/niort/activites/realite-virtuelle/"
+    },
+    "quiz": {
+      "nom": "Rival Quiz",
+      "url": "https://monky.fr/niort/accueil/",
+      "lignes": [
+        {
+          "l": "1 partie",
+          "p": 12.9,
+          "u": "/pers."
+        },
+        {
+          "l": "2 parties",
+          "p": 20
+        }
+      ],
+      "source": "https://monky.fr/niort/activites/rival-quiz/"
+    },
+    "pixel": {
+      "nom": "Pixel",
+      "url": "https://monky.fr/niort/accueil/",
+      "lignes": [
+        {
+          "l": "1 partie",
+          "p": 9.9,
+          "u": "/pers."
+        },
+        {
+          "l": "2 parties",
+          "p": 14.9
+        },
+        {
+          "l": "Chaussettes antidérapantes",
+          "p": 2.5,
+          "u": "la paire",
+          "x": 1
+        }
+      ],
+      "source": "https://monky.fr/niort/activites/pixel-games/"
+    },
+    "billard": {
+      "nom": "Billard",
+      "url": "https://monky.fr/niort/accueil/",
+      "lignes": [
+        {
+          "l": "Jeton (1 partie)",
+          "p": null,
+          "txt": "à l'accueil"
+        }
+      ],
+      "source": "https://monky.fr/niort/activites/billards-flechettes/"
+    },
+    "darts": {
+      "nom": "Fléchettes",
+      "url": "https://monky.fr/niort/accueil/",
+      "lignes": [],
+      "source": "https://monky.fr/niort/activites/billards-flechettes/"
+    },
+    "arcades": {
+      "nom": "Jeux d'arcade",
+      "url": "https://monky.fr/niort/accueil/",
+      "lignes": [
+        {
+          "l": "200 Bananacoins",
+          "p": 10
+        },
+        {
+          "l": "400 + 104 bonus",
+          "p": 20
+        },
+        {
+          "l": "600 + 168 bonus",
+          "p": 30
+        },
+        {
+          "l": "1 000 + 344 bonus",
+          "p": 50
+        },
+        {
+          "l": "1 500 + 536 bonus",
+          "p": 75
+        },
+        {
+          "l": "2 000 + 720 bonus",
+          "p": 100
+        }
+      ],
+      "source": "https://monky.fr/niort/activites/jeux-darcade/"
+    },
+    "anniv": {
+      "nom": "Anniversaires",
+      "url": "https://monky.fr/niort/accueil/",
+      "lignes": [
+        {
+          "l": "Formule anniversaire",
+          "p": 16.9,
+          "u": "/enfant"
+        },
+        {
+          "l": "Activités suivantes",
+          "p": 5,
+          "u": "/enfant",
+          "x": 1
+        },
+        {
+          "l": "Offre Pitchoun 0-5 ans",
+          "p": 12.9
+        }
+      ],
+      "source": "https://monky.fr/niort/activites/anniversaire/"
+    },
+    "snack": {
+      "nom": "Snack & espace Kids",
+      "url": "https://monky.fr/niort/accueil/",
+      "lignes": [
+        {
+          "l": "Tarifs",
+          "p": null,
+          "txt": "sur place"
+        }
+      ],
+      "source": "https://monky.fr/niort/accueil/"
+    },
+    "resto": {
+      "nom": "Restaurant & bar",
+      "url": "https://monky.fr/niort/accueil/",
+      "lignes": [
+        {
+          "l": "Menu enfant (< 12 ans)",
+          "p": 7.9
+        },
+        {
+          "l": "Menu enfant avec 1 entrée Kid/Jump ou pass",
+          "p": 2,
+          "x": 1
+        },
+        {
+          "l": "Offre étudiante repas + bowling + laser",
+          "p": 20,
+          "u": "/pers."
+        },
+        {
+          "l": "Offre EVG / EVJF (activité + planche + boisson)",
+          "p": 15,
+          "u": "/pers."
+        },
+        {
+          "l": "Pinte de blonde, Happy Monky",
+          "p": 3.7,
+          "x": 1
+        }
+      ],
+      "source": "https://monky.fr/niort/accueil/"
+    }
+  },
+  "pass_source": "https://monky.fr/niort/accueil/"
+}
