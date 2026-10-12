@@ -1,0 +1,27 @@
+name: Vérification des tarifs
+on:
+  schedule:
+    - cron: "17 6 * * 1"
+  workflow_dispatch:
+permissions:
+  contents: read
+  issues: write
+jobs:
+  verif:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: Comparer tarifs.json et monky.fr
+        id: check
+        continue-on-error: true
+        run: python scripts/check_tarifs.py
+      - name: Ouvrir ou mettre à jour l'issue « Tarifs à vérifier »
+        if: steps.check.outcome == 'failure'
+        env: { GH_TOKEN: "${{ github.token }}" }
+        run: |
+          n=$(gh issue list --label tarifs --state open --json number -q '.[0].number')
+          if [ -n "$n" ]; then gh issue comment "$n" --body-file rapport.md
+          else gh label create tarifs --color F5C518 2>/dev/null || true
+               gh issue create --title "Tarifs à vérifier" --label tarifs --body-file rapport.md; fi
